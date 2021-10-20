@@ -1,0 +1,3 @@
+a = int(input("podaj pierwsza liczbe: "))
+b = int(input("podaj druga liczbe: "))
+print("suma dodawania wynosi: ", a + b)
