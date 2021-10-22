@@ -1,1 +1,22 @@
+a = [2,15]
+b = [5,19]
 
+abegin = a[0]
+aend = a[1]
+bbegin = b[0]
+bend = b[1]
+
+print("dla a z zakresu [2,15] liczby podzielne przez 4 to:  ", end = ' ')
+
+while abegin < aend:
+    if abegin % 4 == 0:
+        print(abegin, end = ' ')
+    abegin += 1
+
+print("\ndla a z zakresu [5,19] liczby podzielne przez 5 to:  ", end = ' ')
+
+while bbegin < bend:
+    if bbegin % 5 == 0:
+        print(bbegin, end = ' ')
+    bbegin += 1
+print("\n")
