@@ -1,0 +1,9 @@
+a = float(input("podaj pierwsza liczbe: "))
+b = float(input("podaj druga liczbe: "))
+if a != 0:
+    x=-b/a
+    print("x = ",x)
+elif b==0:
+    print("nieskonczenie wiele rozwiazan")
+else:
+    print("rownanie sprzeczne")
