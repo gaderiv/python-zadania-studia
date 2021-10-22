@@ -1,0 +1,8 @@
+import math
+wartosc = int(input("podaj wartosc: "))
+i = 1
+s = 1
+while i <= wartosc:
+    s *= i
+    i += 1
+print("silnia z wartosci: ", wartosc, "wynosi: ", s)
