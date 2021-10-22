@@ -1,0 +1,13 @@
+ilosc = int(input("podaj wielkosc: "))
+miejsce = 1
+temp = 0
+i = 0
+
+while i < ilosc:
+    while temp < miejsce:
+        print("*", end = '')
+        temp += 1
+    print("")
+    temp = 0
+    miejsce += 1
+    i += 1
