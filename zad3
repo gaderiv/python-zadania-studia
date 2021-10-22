@@ -1,0 +1,4 @@
+a = float(input("Podaj pierwszy bok prostokąta: "))
+b = float(input("Podaj drugi bok prostokąta: "))
+p = a*b 
+print("Pole prostokąta o podanych wymiarach to " + str(float(p)) + " cm2") 
