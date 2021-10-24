@@ -1,0 +1,17 @@
+import random
+
+a = random.randint(0, 1000)
+odpowiedz = False
+print("w zakresie od 0 do 1000 znajduje sie liczba ktora przyniesie ci zwyciestwo, twoim zadaniem jest jej odgadniecie \nwpisz pierwsza liczbe: ")
+
+while (odpowiedz != True):
+    b = int(input(">>> "))
+    if b == a:
+        print("zgadles!")
+        odpowiedz = True
+    elif b<a:
+        print("liczba jest za mala, proboj jeszcze: ")
+    elif b>a:
+        print("liczba jest za duza, proboj jeszcze: ")
+    else:
+        print("podales niepoprawna wartosc sprobuj jeszcze raz")
