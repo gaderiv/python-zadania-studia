@@ -1,0 +1,28 @@
+import math
+import random
+
+c = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+n = len(c)
+
+for i in range(n):
+    a = random.randint(1, 3)
+    c[i] = a
+print("wypelniona lista randomowo: ", c)
+
+jed = 0
+dwa = 0
+trz = 0
+for j in range(n):
+    if c[j] == 1:
+        jed += 1
+    elif c[j] == 2:
+        dwa += 1
+    else: 
+        trz += 1
+
+slownik = {
+1: jed,
+2: dwa,
+3: trz
+}
+print('\n',slownik)
