@@ -15,8 +15,10 @@ elif wybor == '2':
 elif wybor =='3':
     wynik = a * b
     print(wynik)
-elif wybor == '4' and b>0:
-    wynik = a / b
-    print(wynik)
-else:
-    print('\nWystąpił błąd: nie dzielimy przez zero')
+elif wybor == '4':
+    try:
+        wynik = a / b
+        print(wynik)
+    except ZeroDivisionError as p:
+        print('Wystąpił błąd:', p)
+        
