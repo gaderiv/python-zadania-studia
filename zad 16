@@ -1,0 +1,8 @@
+import math
+
+p = int(input("podaj p: " ))
+n = int(input("podaj liczbe naturalna: " ))
+
+for i in range(p): 
+    wynik = math.pow(n,i)
+    print(wynik, end=', ')
