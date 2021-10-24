@@ -1,0 +1,8 @@
+a = [1, 2]
+b = [3, 4]
+
+c = [[a[0],b[0]],[a[0],b[1]],[a[1],b[0]],[a[1],b[1]]]
+print(f'dla listy a: {a}')
+print(f'i listy b: {b}')
+print("iloczyn kartezjanski wynosi: ", end = '')
+print(c)
