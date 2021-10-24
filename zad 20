@@ -1,0 +1,22 @@
+import math
+import random
+
+a = float(input('Wprowadź pierwszą liczbę: '))
+b = float(input('Wprowadź drugą liczbę: '))
+wybor = input('wpisz odpowiednia liczbe przypisana obok metody \n1. dodawanie \n2. odejmowanie \n3. mnozenie \n4. dzielenie: ')
+
+
+if wybor == '1':
+    wynik = a + b
+    print(wynik)
+elif wybor == '2':
+    wynik = a - b
+    print(wynik)
+elif wybor =='3':
+    wynik = a * b
+    print(wynik)
+elif wybor == '4' and b>0:
+    wynik = a / b
+    print(wynik)
+else:
+    print('\nWystąpił błąd: nie dzielimy przez zero')
