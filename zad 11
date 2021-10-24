@@ -1,1 +1,7 @@
 
+import math
+import random
+
+zbior = {33, 14, 66, 13}
+lista = [zbior]
+print(lista)
