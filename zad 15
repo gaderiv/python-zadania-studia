@@ -1,0 +1,12 @@
+import math
+import random
+
+c = [13, 7, 6, 0, 8, -11, 3, 0, -15, -55, 44, -4]
+print(c)
+
+for i in range(len(c)):
+    if c[i] < 0:
+        c[i] = -1
+    elif c[i] > 0:
+        c[i] = 1;
+print(c)
