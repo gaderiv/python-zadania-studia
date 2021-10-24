@@ -1,0 +1,6 @@
+import math
+
+lista = [23, 1241, 6587456, 1232, 2338, 46565, 2]
+a = (max(lista))
+
+print("największy element listy wynosi: ", a)
