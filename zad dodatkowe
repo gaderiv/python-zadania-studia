@@ -13,5 +13,4 @@ while (odpowiedz != True):
         print("liczba jest za mala, proboj jeszcze: ")
     elif b>a:
         print("liczba jest za duza, proboj jeszcze: ")
-    else:
-        print("podales niepoprawna wartosc sprobuj jeszcze raz")
+
