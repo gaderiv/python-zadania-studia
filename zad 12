@@ -1,0 +1,7 @@
+import math
+
+lista = [23, 1241, 6587456, 1232, 2338, 46565, 2]
+a = (min(lista))
+
+print(f'nieposegregowana lista: {lista}')
+print("najmniejszy element listy wynosi: ", a)
